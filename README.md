@@ -200,3 +200,20 @@ In our best algorithm, we apply the technique to find the best parameters. Below
 # 8.0. BUSINESS PERFORMANCE
 
 
+Let's remember what is our business problem:
+
+- Each diagnosis costs about $1000,00
+- The price will vary according to the precision, the customer pays $500.00 for every 5% precision above 50%.
+- If the diagnostic precision is 50% or below, the customer doesn't pay for it.
+
+What did we get?
+
+- Precision = 76.04%
+- 5% above 50% = $500,00
+- 25% above 50% = $2500,00
+
+![](img/business1.PNG)
+![](img/business2.PNG)
+![](img/business3.PNG)
+
+With a data set of 70000 people and each exam costing approximately $ 2500.00, our financial return will be, in the worst case, $ 35,000,000.00 and in the best case, $ 175,000,000.00
