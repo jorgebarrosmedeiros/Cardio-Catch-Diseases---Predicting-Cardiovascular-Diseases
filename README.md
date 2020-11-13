@@ -50,6 +50,7 @@ The "id" column is a "int64" but, we won't execute any mathmatical operation bec
 
 ## 3.4. Statistical Descriptive
 
+### 3.4.1. Numerical Attributes
 ![](img/statistical_descriptive.PNG)
 
 From this table, we can get some informations:
@@ -59,4 +60,31 @@ From this table, we can get some informations:
 - "ap_hi" and "ap_lo have a high skew, this probably means that we have a non-symmetric graph shifted to the right.
 - If we remember that a person who has systolic blood pressure of 180mmHg must urgently go to the doctor and with a diastolic pressure greater than 120mmHg. However, we have as maximum values in the columns "ap_hi" and "ap_lo" the values 16020.0 and 11000.0 respectively. This is a strange value that needs to be analyzed soon, but it could indicates that it is an outlier.
 - There are also negative values for the columns "ap_hi" and "ap_lo", this represents an inconsistent value.
+
+### 3.4.1. Binary and Ordinal Attributes
+
+![](img/binary_ord.PNG)
+
+From these plots we can get some informations:
+
+- There is much more data from people with normal glucose levels.
+
+- Our target variable has balanced data, which is very good, it will avoid a lot of work.
+
+- The number of people who do physical activities is considerably greater than those who don't.
+
+# 4.0. MINDMAP HYPOTHESIS
+
+![](img/MindMapHypothesis.png.png)
+
+From the mind map above, we created some features to validate the hypotheses.
+
+# 5.0. EXPLORATORY DATA ANALYSIS 
+
+## 5.1. Univariate Analysis
+
+![](img/univariate_analysis.PNG)
+
+- As we can see, we have our classes balanced.
+
 
