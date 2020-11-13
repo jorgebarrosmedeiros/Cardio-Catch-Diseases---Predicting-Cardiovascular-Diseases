@@ -34,11 +34,11 @@ Business problem reference: https://sejaumdatascientist.com/projeto-de-data-scie
 
 ## 3.1. Data Dimensions
 
-![](img/data_dimensions.png)
+![](img/data_dimensions.PNG)
 
 ## 3.2. Data Types
 
-![](img/data_types.png)
+![](img/data_types.PNG)
 
 As we can see bellow, we have 2 data types: int64 and float64. It's important to explain that machine learning algorithms usually build a better learning with numerical data, this is one of the premises that we will assume.
 
@@ -46,11 +46,11 @@ As we can see bellow, we have 2 data types: int64 and float64. It's important to
 
 The "id" column is a "int64" but, we won't execute any mathmatical operation because it is just a indentifying column. Therefore, we could change it to a categorical data or maybe to drop it, but let's to change the type to "object". Another point that we need to note is that our "age" column has an "days" format, so let's switch to the "age" format.
 
-![](img/change_types.png)
+![](img/change_types.PNG)
 
 ## 3.4. Statistical Descriptive
 
-![](img/statistical_descriptive.png)
+![](img/statistical_descriptive.PNG)
 
 From this table, we can get some informations:
 
