@@ -29,3 +29,34 @@ What do we need to show?
 
 
 Business problem reference: https://sejaumdatascientist.com/projeto-de-data-science-diagnostico-precoce-de-doencas-cardiovasculares/
+
+# 3.0. DATA DESCRIPTION 
+
+## 3.1. Data Dimensions
+
+![](img/data_dimensions.png)
+
+## 3.2. Data Types
+
+![](img/data_types.png)
+
+As we can see bellow, we have 2 data types: int64 and float64. It's important to explain that machine learning algorithms usually build a better learning with numerical data, this is one of the premises that we will assume.
+
+## 3.3. Change Types
+
+The "id" column is a "int64" but, we won't execute any mathmatical operation because it is just a indentifying column. Therefore, we could change it to a categorical data or maybe to drop it, but let's to change the type to "object". Another point that we need to note is that our "age" column has an "days" format, so let's switch to the "age" format.
+
+![](img/change_types.png)
+
+## 3.4. Statistical Descriptive
+
+![](img/statistical_descriptive.png)
+
+From this table, we can get some informations:
+
+- There aren't children included in the dataset
+- The minimum value for the "height" column is 55, but the minimum value for the age_year column is 29. As we said, we don't have children included in the data set
+- "ap_hi" and "ap_lo have a high skew, this probably means that we have a non-symmetric graph shifted to the right.
+- If we remember that a person who has systolic blood pressure of 180mmHg must urgently go to the doctor and with a diastolic pressure greater than 120mmHg. However, we have as maximum values in the columns "ap_hi" and "ap_lo" the values 16020.0 and 11000.0 respectively. This is a strange value that needs to be analyzed soon, but it could indicates that it is an outlier.
+- There are also negative values for the columns "ap_hi" and "ap_lo", this represents an inconsistent value.
+
