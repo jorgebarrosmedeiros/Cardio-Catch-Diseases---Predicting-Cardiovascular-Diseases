@@ -75,7 +75,7 @@ From these plots we can get some informations:
 
 # 4.0. MINDMAP HYPOTHESIS
 
-![](img/MindMapHypothesis.png.png)
+![](img/MindMapHypothesis.png)
 
 From the mind map above, we created some features to validate the hypotheses.
 
