@@ -217,3 +217,9 @@ What did we get?
 ![](img/business3.PNG)
 
 With a data set of 70000 people and each exam costing approximately $ 2500.00, our financial return will be, in the worst case, $ 35,000,000.00 and in the best case, $ 175,000,000.00
+
+# 9.0. DEPLOY MODEL TO PRODUCTION
+
+To deploy the model, we use the flask framework. So, these are some of the predictions we got.
+
+![](img/deploy.PNG)
