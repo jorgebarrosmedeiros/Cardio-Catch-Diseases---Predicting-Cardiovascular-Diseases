@@ -143,3 +143,60 @@ What can we get about the plots above?
 - In scatterplots, we can see some points with a very high number of cases of cardiovascular diseases. For example, there are almost 10,000 people with 120mmHg of systolic blood pressure with CVD.
 - In both types of blood pressure, we have a positive correlation with our target variable. Systolic blood pressure has a moderate correlation and diastolic blood, a weak correlation.
 
+**H6. There are more cases of cardiovascular disease in people who are overweight.**
+True However, the number of cases in obese people is less than the number of cases of people with normal weight. The number of extremely obese people with cardiovascular disease is almost half the number of people with a normal person.
+
+![](img/h3.PNG)
+
+- The number of cases in obese people is less than the number of cases of people with normal weight.
+- The number of extremely obese people with cardiovascular disease is almost half the number of people with a normal person.
+- There's a low positive correlation between bmi and cardio.
+
+## 5.3. Multivariate Analysis
+
+![](img/multi_analysis.PNG)
+
+# 6.0. DATA PREPARATION
+
+![](img/data_prep.PNG)
+
+- RobustScaler
+  - ap_lo
+  - ap_hi
+  - bmi
+  - Weight
+  
+- MinMaxScaler
+  - age_year
+  - height
+  
+ # 7.0. MACHINE LEARNING MODELLING
+ 
+ ## 7.1. Single Performance
+ 
+ ![](img/machine_leraning1.PNG)
+ 
+ We obtained the following results, however, in order for our model to be reliable, we applied the cross-validation technique.
+ 
+ ## 7.2. Real Performance - Cross-Validation
+ 
+ ![](img/machine_learning2.PNG)
+ 
+ ## 7.3. ROC Curve
+ 
+ ![](img/roc_curve.PNG)
+ 
+ ## 7.4. Hyperparameter Fine Tunning
+ 
+ In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameters for a learning algorithm. A hyperparameter is a parameter whose value is used to control the learning process. By contrast, the values of other parameters (typically node weights) are learned.
+
+Therefore, we will use the RandomSearchCV algorithm beacuse, the method described herein is a type of local random search, where every iteration is dependent on the prior iteration's candidate solution. So, we will spend less time to obtain the result.
+
+In our best algorithm, we apply the technique to find the best parameters. Below, we can see its performance with the chosen parameters.
+
+![](img/machine_learning3.PNG)
+![](img/machine_learning4.PNG)
+
+# 8.0. BUSINESS PERFORMANCE
+
+
