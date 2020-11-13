@@ -83,8 +83,63 @@ From the mind map above, we created some features to validate the hypotheses.
 
 ## 5.1. Univariate Analysis
 
+### 5.1.1. Response Variable
+
 ![](img/univariate_analysis.PNG)
 
 - As we can see, we have our classes balanced.
 
+### 5.1.2. Numerical Varibles
+
+![](img/num_attributes.PNG)
+
+From the graphs above, we can get some conclusions:
+
+- gender
+  - Our class that has the gender "1" has almost twice the gender class "2".
+- height
+  - It has a distribution similar to a normal one.
+- weight
+  - It has a distribution similar to a normal one.
+- bmi
+  - It has a distribution similar to a normal one.
+  
+### 5.1.3. Categorical Attributes
+
+![](img/cat_attributes.PNG)
+
+From these plots, we've got some informations:
+
+- The number of people with normal weight and overweight are very close. The number of obese people is half the number of people with normal weight.
+- There are twice as many people between 50-65 than 0-50.
+- There are almost twice as many people of gender 1 compared to 2.
+- The number of hypertensive people is half that of normal people.
+
+## 5.2. Bivariate Analysis 
+
+### 5.2.1. Hypothesis
+
+**H1. There are more cases of cardiovascular diseases in older people.**
+True -  It is true until the age of 59, after that, there is a drop in the number of people with cardiovascular diseases.
+
+![](img/h1.PNG)
+
+From these plots, we can get some informations:
+
+- There is a growing trend between age and the number of people with cardiovascular disease.
+- After 59 years, we can see a drop in the number of people with cardiovascular disease.
+- The "age" variable has a low correlation with our target variable.
+
+**H3. There are more cases of cardiovascular disease in people with high diastolic and systolic pressure.**
+True Although the number of people with hypertension is higher, there are more cases of people with normal blood pressure than with high blood pressure.
+
+![](img/h2.PNG)
+
+![](img/h22.PNG)
+
+What can we get about the plots above?
+
+- There are many people with hypertension and cardiovascular disease. However, there are also a lot of people without hypertension and with cardiovascular disease.
+- In scatterplots, we can see some points with a very high number of cases of cardiovascular diseases. For example, there are almost 10,000 people with 120mmHg of systolic blood pressure with CVD.
+- In both types of blood pressure, we have a positive correlation with our target variable. Systolic blood pressure has a moderate correlation and diastolic blood, a weak correlation.
 
